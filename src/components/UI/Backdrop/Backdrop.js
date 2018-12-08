@@ -8,9 +8,7 @@ const Backdrop = () => {
   
 
   return (
-    <div className='Backdrop'>
-      This is the backdrop
-    </div>
+    <div className='Backdrop'></div>
   )
 }
 

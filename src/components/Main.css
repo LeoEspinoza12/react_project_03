@@ -1,0 +1,41 @@
+
+
+.Main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 15;
+  height: 100vh;
+  overflow: auto;
+}
+
+.Main ul li{
+  height: 120px;
+  border-bottom: 1px solid beige
+}
+
+
+
+
+/* iphone 6/7 */
+
+
+
+
+@media screen and (min-width: 421px) {
+  .Main {
+    height:90vh;
+    width: 420px;
+    margin: -45vh 0 0 -210px;
+    background: red
+  }
+}
+
+/* iphone 6s/7s */
+@media screen and (max-width: 420px) {
+  .Main {
+    width: 100%;
+    margin: -50vh 0 0 -50%;
+    background: orange
+  }
+}

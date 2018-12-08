@@ -1,15 +1,16 @@
 
 
 import React from 'react'
-import './List.css'
+import './Main.css'
 
 
-const List = () => {
+const Main = () => {
 
 
 
   return (
-    <div className='List'>
+    <div className='Main'>
+    asdf
        <ul>
             <li>sample</li>
             <li>sample</li>
@@ -33,4 +34,4 @@ const List = () => {
 }
 
 
-export default List
+export default Main

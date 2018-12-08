@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Backdrop from './components/UI/Backdrop/Backdrop'
-import List from './components/List/List'
+import Main from './components/Main'
 import './App.css';
 
 class App extends Component {
@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <Backdrop />
-        <List />
+        <Main />
       </div>
 
       
