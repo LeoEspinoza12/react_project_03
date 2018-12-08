@@ -1,0 +1,13 @@
+
+
+.List {
+  position: relative;
+  z-index: 15;
+  height: 100vh;
+  overflow: auto
+}
+
+.List ul li{
+  height: 70px;
+  border-bottom: 1px solid beige
+}

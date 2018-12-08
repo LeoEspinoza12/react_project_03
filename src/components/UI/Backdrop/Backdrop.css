@@ -1,0 +1,9 @@
+.Backdrop {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: 100vh;
+  background: url('../../../img/background.jpg') no-repeat scroll;
+  background-size: cover;
+  background-position: center
+}
