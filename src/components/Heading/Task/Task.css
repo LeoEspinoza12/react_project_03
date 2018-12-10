@@ -1,0 +1,38 @@
+.Task {
+  width: 30%;
+  height: 100%;
+  float: left;
+  /* background: green; */
+}
+.Task p:nth-child(1) {
+  height: 32%;
+  width: 95%;
+  margin: 0;
+  /* background: blue */
+}
+
+.Task p:nth-child(2) {
+  margin: 0;
+  height: 45%;
+  font-size: 2.6vh;
+  font-weight: 600;
+  text-align: left;
+  padding-left: 5%
+}
+
+.NoColor{
+  color: rgb(160,160,160);
+  text-shadow: 1px 1px 1px rgb(10,10,10)
+}
+
+.WithColor {
+  color: #024a0c;
+  text-shadow: 1px 1px 1px rgb(20, 20, 20)
+}
+
+@media screen and (min-width: 421px) {
+  .Task p:nth-child(2) {
+    font-size: 2.4vh;
+  }
+
+}

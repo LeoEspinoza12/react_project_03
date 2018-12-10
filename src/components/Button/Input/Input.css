@@ -1,0 +1,74 @@
+.Input {
+  width: 100%;
+  height: 100%;
+  /* background: orange */
+}
+
+.Input div:nth-child(1){
+  position: relative;
+  width: 80%;
+  height: 40%;
+  margin: 0 auto;
+  top: 10px;
+  /* margin-top: 10px */
+  /* background: teal; */
+  /* float: left */
+}
+
+.Input div:nth-child(1) input {
+  width: 94%;
+  height: 75%;
+  font-size: 1.9vh;
+  padding-left: 6%;
+  font-size: 1.6vh;
+  color: #024a0c; 
+  background: rgb(210, 210, 210, 0.3);
+  border: 1px solid #34853f;
+  border-radius: 8px;
+  font-family: 'Roboto Slab';
+}
+
+.Input div:nth-child(2) {
+  position: relative;
+  width: 80%;
+  height: 40%;
+  top: 10px;
+  margin: 0 auto;
+  /* background: blue */
+}
+
+.Input div:nth-child(2) button {
+  margin: 0;
+  float: left;
+  width: 30%;
+  height: 80%;
+  border: 1px solid #34856f;
+  border-radius: 9px
+}
+
+@media (max-width: 812px) {
+  .Input div:nth-child(1) {
+    width: 60%;
+    height: 30px;
+  }
+
+  .Input div:nth-child(1) input{
+    height: 28px;
+    font-size: 12px;
+    font-family: 'Roboto Slab';
+  }
+
+  .Input div:nth-child(2) {
+    margin-top: 5px;
+    width: 60%;
+    height: 30px;
+    
+  }
+
+  .Input div:nth-child(2) button {
+    height: 28px;
+    background: rgb(210, 210, 210, 0.3);
+    color: gray;
+    font-family: 'Roboto Slab';
+  }
+}
