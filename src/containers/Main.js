@@ -38,23 +38,81 @@ addText = () => {
 
 }
 
+
 render(){
   
 
     
     return (
       <div className='Main'>  
-        <Headtimer 
-          timeOfTheDay={this.state.dateTime}
-          numberOfTask={this.state.todoLists.length}/>
-        <Buttons
-          btnValue={this.state.btnValue}
-          switch={this.state.buttonSwitch}
-          clickSwitch={this.toggleSwitch}
-          change={this.changeText}
-          text={this.state.todoText}
-          addText={this.addText}/>
+
+        {/* header section */}
+        <div className='Header'>
+
+          {/* Date */}
+          <div className='Date'>
+            <div>
+              Monday, <b>10<i>th</i></b>
+            </div>
+            <div>
+                December
+            </div>
+          </div>  
+
+          {/* Task */}
+          <div className='Task'>
+            <div className='Top'>
+              <div>10 <i>Tasks</i></div>
+            </div>
+          </div>
+
+          {/* Add */}
+          <div className='Add'>
+            <div className='Top'>
+              <div>Create</div>
+            </div>
+          </div>
+        </div>
+
+
+
+      {/* Input Icon */}
+        <div>
+          <div className="input-group mb-3">
+            <input type="text" className="form-control" placeholder="Enter your todo's" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+          
+          </div>
+        </div>
+
+  
+
+      {/* Lists */}
+      {/* <div className="input-group mb-3">
+        <div className="input-group-prepend">
+          <div className="input-group-text">
+            <input type="checkbox" aria-label="Checkbox for following text input"/>
+          </div>
+        </div>
+        <input type="text" className="form-control" aria-label="Text input with checkbox" />
       </div>
+
+      <div className="input-group">
+        <div className="input-group-prepend">
+          <div className="input-group-text">
+            <input type="checkbox" aria-label="Radio button for following text input" />
+          </div>
+        </div>
+        <input type="text" className="form-control" aria-label="Text input with radio button" />
+      </div> */}
+
+
+
+      </div>
+
+
+
+
+
     )
 
   }

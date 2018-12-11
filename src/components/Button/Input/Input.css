@@ -72,3 +72,13 @@
     font-family: 'Roboto Slab';
   }
 }
+
+
+.Input div:nth-child(2) button:disabled{
+  background: green
+
+}
+
+.Input div:nth-child(2) button:not(:disabled) {
+  background: blue
+}

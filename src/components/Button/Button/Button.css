@@ -45,3 +45,53 @@
 .Button .Margin .Circle:hover {
   background: #179228
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.add-button-enter {
+  opacity: 0.1;
+  /* transform: translateY(50px); */
+  transition: all 1000ms ease-in
+}
+
+.add-button-enter-active {
+  opacity: 0.5;
+  /* transform: translateY(50px); */
+  transition: all 1000ms ease-in
+}
+
+.add-button-enter-done {
+  opacity: 1;
+  transition: all 1000ms ease-in
+}
+
+.add-button-exit {
+  opacity: 1;
+  /* background: blue; */
+  transition: all 1000ms ease-in
+}
+
+.add-button-exit-active {
+  opacity: .9;
+  /* background: peru; */
+  /* transform: translateX(250px); */
+  transition: all 1000ms ease-in
+}
+
+.add-button-exit-done {
+  opacity: 0;
+  /* transform: translateX(250px); */
+  transition: all 1000ms ease-in
+}
