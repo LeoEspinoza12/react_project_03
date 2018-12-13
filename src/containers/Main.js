@@ -4,8 +4,6 @@ import React, {Component}from 'react'
 import './Main.css'
 
 
-import Headtimer from './Headtimer/Headtimer'
-import Buttons from './Button/Buttons'
 
 class Main extends Component {
 
@@ -44,6 +42,10 @@ render(){
 
     
     return (
+
+      <div className='Outer'>
+
+
       <div className='Main'>  
 
         {/* header section */}
@@ -51,12 +53,8 @@ render(){
 
           {/* Date */}
           <div className='Date'>
-            <div>
-              Monday, <b>10<i>th</i></b>
-            </div>
-            <div>
-                December
-            </div>
+            <div>Monday, <i>10th</i></div>
+            <div>December</div>
           </div>  
 
           {/* Task */}
@@ -67,52 +65,120 @@ render(){
           </div>
 
           {/* Add */}
-          <div className='Add'>
-            <div className='Top'>
-              <div>Create</div>
-            </div>
-          </div>
-        </div>
-
-
-
-      {/* Input Icon */}
-        <div>
-          <div className="input-group mb-3">
-            <input type="text" className="form-control" placeholder="Enter your todo's" aria-label="Recipient's username" aria-describedby="basic-addon2" />
           
-          </div>
         </div>
+
+
+
+       
 
   
 
       {/* Lists */}
-      {/* <div className="input-group mb-3">
-        <div className="input-group-prepend">
-          <div className="input-group-text">
-            <input type="checkbox" aria-label="Checkbox for following text input"/>
-          </div>
+        <div className='List'>
+          <ul className="list-group">
+            <li className="list-group-item">
+              <input className="form-check-input" type="checkbox" value="" id="defaultCheck1" />Run 5k
+              <i className="far fa-trash-alt fa-pull-right" ></i>
+            </li> 
+            <hr />
+            <li className="list-group-item">
+              <input className="form-check-input" type="checkbox" value="" id="defaultCheck1" />Wash Laundry dsaf asdf adsf adsf 
+              <i className="far fa-trash-alt fa-pull-right" ></i>
+            </li>
+            <hr />
+            <li className="list-group-item">
+              <input className="form-check-input" type="checkbox" value="" id="defaultCheck1" />Cook Dinner
+              <i className="far fa-trash-alt fa-pull-right" ></i>
+            </li>
+            <hr />
+            <li className="list-group-item">
+              <input className="form-check-input" type="checkbox" value="" id="defaultCheck1" />Clean House
+              <i className="far fa-trash-alt fa-pull-right" ></i>
+            </li>
+            <hr />
+            <li className="list-group-item">
+              <input className="form-check-input" type="checkbox" value="" id="defaultCheck1" />Run 5k
+              <i className="far fa-trash-alt fa-pull-right" ></i>
+            </li>
+            <hr />
+            <li className="list-group-item">
+              <input className="form-check-input" type="checkbox" value="" id="defaultCheck1" />Wash Laundry dsaf asdf adsf adsf
+              <i className="far fa-trash-alt fa-pull-right" ></i>
+            </li>
+            <hr />
+            <li className="list-group-item">
+              <input className="form-check-input" type="checkbox" value="" id="defaultCheck1" />Cook Dinner
+              <i className="far fa-trash-alt fa-pull-right" ></i>
+            </li>
+            <hr />
+            <li className="list-group-item">
+              <input className="form-check-input" type="checkbox" value="" id="defaultCheck1" />Clean House
+              <i className="far fa-trash-alt fa-pull-right" ></i>
+            </li>
+            <hr />
+            <li className="list-group-item">
+              <input className="form-check-input" type="checkbox" value="" id="defaultCheck1" />Run 5k
+              <i className="far fa-trash-alt fa-pull-right" ></i>
+            </li>
+            <hr />
+            <li className="list-group-item">
+              <input className="form-check-input" type="checkbox" value="" id="defaultCheck1" />Wash Laundry dsaf asdf adsf adsf
+              <i className="far fa-trash-alt fa-pull-right" ></i>
+            </li>
+            <hr />
+            <li className="list-group-item">
+              <input className="form-check-input" type="checkbox" value="" id="defaultCheck1" />Clean House
+              <i className="far fa-trash-alt fa-pull-right" ></i>
+            </li>
+            <hr />
+            <li className="list-group-item">
+              <input className="form-check-input" type="checkbox" value="" id="defaultCheck1" />Run 5k
+              <i className="far fa-trash-alt fa-pull-right" ></i>
+            </li>
+            <hr />
+            <li className="list-group-item">
+              <input className="form-check-input" type="checkbox" value="" id="defaultCheck1" />Wash Laundry dsaf asdf adsf adsf
+              <i className="far fa-trash-alt fa-pull-right" ></i>
+            </li>
+            <hr />
+              <li className="list-group-item">
+                <input className="form-check-input" type="checkbox" value="" id="defaultCheck1" />Clean House
+              <i className="far fa-trash-alt fa-pull-right" ></i>
+              </li>
+              <hr />
+              <li className="list-group-item">
+                <input className="form-check-input" type="checkbox" value="" id="defaultCheck1" />Run 5k
+              <i className="far fa-trash-alt fa-pull-right" ></i>
+              </li>
+              <hr />
+              <li className="list-group-item">
+                <input className="form-check-input" type="checkbox" value="" id="defaultCheck1" />Wash Laundry dsaf asdf adsf adsf
+              <i className="far fa-trash-alt fa-pull-right" ></i>
+              </li>
+              <hr />
+          </ul>
         </div>
-        <input type="text" className="form-control" aria-label="Text input with checkbox" />
+
+
+
+
+{/* this area is add */}
+  <div className='AddField'>
+    <div className="form-group Add">
+      <input type="text" className="form-control" id="exampleInputPassword1" placeholder="Enter your todos" />
+    </div>
+    <div className="form-group Enter">
+      <button type="submit" className="btn btn-primary">Enter</button>
+    </div>
+  </div>
+
+
+
+
       </div>
 
-      <div className="input-group">
-        <div className="input-group-prepend">
-          <div className="input-group-text">
-            <input type="checkbox" aria-label="Radio button for following text input" />
-          </div>
-        </div>
-        <input type="text" className="form-control" aria-label="Text input with radio button" />
-      </div> */}
-
-
-
       </div>
-
-
-
-
-
     )
 
   }
