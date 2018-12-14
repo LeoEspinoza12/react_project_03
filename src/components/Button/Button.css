@@ -1,0 +1,140 @@
+
+
+
+
+.Button, .BtnOnly {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 15%;
+}
+
+.BtnOnly{
+  height: 7.5%;
+}
+.Button .Add {
+  width: 100%;
+  margin: 0;
+  height: 50%;
+  background: rgb(230, 230, 230, 0.5);
+}
+
+.Button .Add input {
+  width: 80%;
+  height: 40%;
+  margin-left: 10%;
+  padding-left: 15px;
+  font-size: 14px;
+  color: #197327;
+  position: absolute;
+  margin-top: 2%;
+  background: rgb(204, 250, 251, 0.6);
+}
+
+.Button .Enter, .BtnOnly .Enter {
+  width: 100%;
+  margin: 0;
+  height: 50%;
+  background: rgb(230, 230, 230, 0.5);
+}
+
+.BtnOnly .Enter{
+  height: 100%
+}
+
+
+.Button .Enter button {
+  color: rgb(230, 230, 230);
+  width: 80%;
+  height: 80%;
+  margin: 1% 10%;
+  font-size: 14px;
+  background: #197327
+}
+
+.BtnOnly .Enter button {
+  background: orange
+}
+
+.Enter button:disabled{
+  background: gray;
+  opacity: 0.6;
+}
+
+
+
+.fadeAddBtn-enter {
+  opacity: 0.1;
+  transform: translateY(100%);
+  transition: all 300ms ease-in
+}
+
+.fadeAddBtn-enter-active {
+  opacity: 0.3;
+  transform: translateY(50%);
+  transition: all 300ms ease-in
+}
+
+.fadeAddBtn-enter-done {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 300ms ease-in
+}
+
+.fadeAddBtn-exit {
+  opacity: 1;
+  transform: translateY(-20%);
+  transition: all 300ms ease-in
+}
+
+.fadeAddBtn-exit-active {
+  opacity: 0.5;
+  transform: translateY(50%);
+  transition: all 300ms ease-in
+}
+
+.fadeAddBtn-exit-done {
+  opacity: 0.1;
+  transform: translateY(100%);
+  transition: all 300ms ease-in
+}
+
+
+
+/* single btn */
+
+.fadeBtn-enter {
+  opacity: 0.1;
+  transform: translateY(100%);
+  transition: all 300ms ease-in
+}
+
+.fadeBtn-enter-active {
+  opacity: 0.3;
+  transform: translateY(95%);
+  transition: all 300ms ease-in
+}
+
+.fadeBtn-enter-done {
+  opacity: 1;
+  transform: translateY(50);
+  transition: all 300ms ease-in
+}
+
+.fadeBtn-exit {
+  opacity: 1;
+  transform: translateY(-50%);
+  transition: all 300ms ease-in
+}
+
+.fadeBtn-exit-active {
+  opacity: 0.5;
+  transform: translateY(50%);
+  transition: all 300ms ease-in
+}
+
+.fadeBtn-exit-done {
+  opacity: 0.1;
+  transform: translateY(100%);
+  transition: all 300ms ease-in
+}

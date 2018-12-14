@@ -1,0 +1,27 @@
+
+
+.Date {
+  width: 70%;
+  height: 100%;
+  float: left;
+
+}
+
+.Date div:nth-child(1) {
+  height: 60%;
+  width: 100%;
+  padding: 10px 0 0 25px;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.Date div:nth-child(2) {
+  height: 40%;
+  width: 100%;
+  padding: 0px 0 0 40px;
+  font-size: 13px;
+  font-weight: 500
+}
+
+
+

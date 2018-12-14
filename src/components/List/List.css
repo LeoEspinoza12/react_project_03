@@ -1,0 +1,52 @@
+.List {
+  width: 100%;
+  height: 82.5%;
+  color: #034a0e;
+  transition: all 900ms ease-in
+}
+
+.List ul {
+  height: 100%;
+  border: none;
+  border-radius: none;
+  overflow: auto;
+  background: rgb(230, 230, 230, 0.3);
+}
+
+.List ul li {
+  width: 100;
+  height: 48px;
+  padding-left: 35px;
+  border-radius: 0;
+  border-bottom: none;
+  border-top: none;
+  font-size: 14px;
+  background: transparent
+}
+
+.List ul hr {
+  width: 90%;
+  height: 1px;
+  margin: 0 auto;
+  background: rgb(0, 128, 0, 0.3)
+}
+
+.List ul li input {
+  padding-left: 20px;
+}
+
+.List ul span{
+  margin-right: 7%;
+  font-style: italic;
+  font-size: 0.9em;
+  color: rgb(135,135,135)
+}
+
+.List ul li i {
+  color: #032c09
+}
+
+.widthAdd{
+  height: 75%;
+  transition: all 900ms ease-in
+}
