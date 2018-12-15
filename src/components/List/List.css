@@ -10,7 +10,7 @@
   border: none;
   border-radius: none;
   overflow: auto;
-  background: rgb(230, 230, 230, 0.7);
+  /* background: rgb(230, 230, 230, 0.7); */
 }
 
 .List ul li {
@@ -18,8 +18,7 @@
   height: 48px;
   padding-left: 35px;
   border-radius: 0;
-  border-bottom: none;
-  border-top: none;
+  border: none;
   font-size: 14px;
   background: transparent
 }
