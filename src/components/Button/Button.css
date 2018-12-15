@@ -16,7 +16,7 @@
   width: 100%;
   margin: 0;
   height: 50%;
-  background: rgb(230, 230, 230, 0.5);
+  background: rgb(230, 230, 230, 0.7);
 }
 
 .Button .Add input {
@@ -35,7 +35,7 @@
   width: 100%;
   margin: 0;
   height: 50%;
-  background: rgb(230, 230, 230, 0.5);
+  background: rgb(230, 230, 230, 0.7);
 }
 
 .BtnOnly .Enter{
