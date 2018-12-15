@@ -12,7 +12,7 @@ const Button = (props) => {
 
       <CSSTransition
         in={props.btnInitialState}
-        timeout={300}
+        timeout={60}
         mountOnEnter
         unmountOnExit
         classNames='fadeBtn'
@@ -29,7 +29,7 @@ const Button = (props) => {
 
       <CSSTransition
         in={props.btnState}
-        timeout={300}
+        timeout={60}
         mountOnEnter
         unmountOnExit
         onExited={()=>props.changeOtherBtnState('btnInitialState')}

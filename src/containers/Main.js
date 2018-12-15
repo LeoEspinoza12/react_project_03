@@ -54,8 +54,37 @@ enterList = (theState) => {
   this.changeOtherBtnState(theState)
 }
 
+listStatus = (listTodo) => {
+  let list = this.state.todoLists.map((todo, index) => {
+    if(todo.todo === listTodo){
+      let newTodo = todo
+      if(newTodo.status === 'pending'){
+        newTodo.status = 'done'
+      } else if (newTodo.status === 'done'){
+        newTodo.status = 'pending'
+      }
+      return newTodo
+    } else {
+       return todo
+    }
+  })
+  this.setState({todoLists: list})
+  
+}
+
+deleteList = (i) => {
+  let list = this.state.todoLists.filter((todo, index) => {
+    if(index !== i){
+      return todo
+    } 
+    return list
+  })
+  this.setState({todoLists: list})
+}
+
 render(){
-  console.log(this.state.btnInitialState)
+  
+  
     return (
       <div className='Outer'>
         <div className='Main'>  
@@ -65,7 +94,9 @@ render(){
           
           <Lists 
             listWidthToggler={this.state.btnInitialState}
-            lists={this.state.todoLists}/>
+            lists={this.state.todoLists}
+            listStatus={this.listStatus}
+            delete={this.deleteList}/>
           <Button 
             btnInitialState={this.state.btnInitialState}
             btnState={this.state.btnState}
