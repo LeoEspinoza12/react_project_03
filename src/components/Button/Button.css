@@ -24,7 +24,8 @@
   height: 40%;
   margin-left: 10%;
   padding-left: 15px;
-  font-size: 0.8em;
+  font-size: 0.9em;
+  font-weight: 600;
   color: #197327;
   position: absolute;
   margin-top: 2%;
@@ -48,17 +49,20 @@
   width: 80%;
   height: 80%;
   margin: 1% 10%;
-  font-size: 0.7em;
+  font-size: 0.8em;
   background: #197327
 }
 
 .BtnOnly .Enter button {
   background: orange;
-  font-size: 0.7em
+  font-size: 0.8em; 
+  color: rgb(80,80,80);
+  font-weight: 500
 }
 
 .Enter button:disabled{
   background: gray;
+  font-size: 0.8em;
   opacity: 0.6;
 }
 

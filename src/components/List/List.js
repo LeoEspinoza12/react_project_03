@@ -44,11 +44,10 @@ if(props.lists.length === 0){
       <CSSTransition
       key={i}
       in={props.lists.length >= 1}
-      timeout={300}
+      timeout={100}
       unmountOnExit
       mountOnEnter
-      classNames='fade-list'>
-        <div>
+      classNames='fade-lists'>
 
         <li className={doneClass.join(' ')}>
           <input 
@@ -58,9 +57,8 @@ if(props.lists.length === 0){
           <i className="far fa-trash-alt fa-pull-right"
             onClick={() => props.delete(i)} ></i>
           <span className='fa-pull-right'>{moment(list.time).format('h:mm a')}</span>
-        </li> 
         <hr />
-        </div>
+        </li> 
       </CSSTransition>
     )
   })
