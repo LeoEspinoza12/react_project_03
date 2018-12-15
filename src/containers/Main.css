@@ -5,9 +5,9 @@
   top: 50%;
   left: 50%;
   z-index: 15;
-  width: 100vw;
-  height: 100vh;
-  margin: -50vh 0 0 -50vw;
+  width: 80vw;
+  height: 80vh;
+  margin: -40vh 0 0 -40vw;
   
 }
 

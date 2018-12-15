@@ -11,15 +11,15 @@
   height: 60%;
   width: 100%;
   padding: 10px 0 0 25px;
-  font-size: 21px;
+  font-size: 1em;
   font-weight: 600;
 }
 
 .Date div:nth-child(2) {
   height: 40%;
   width: 100%;
-  padding: 0px 0 0 40px;
-  font-size: 13px;
+  padding: 0px 0 0 2.4em;
+  font-size: 0.7em;
   font-weight: 500
 }
 
