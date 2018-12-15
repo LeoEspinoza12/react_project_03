@@ -22,3 +22,42 @@
 .NoTask{
   color: rgb(150,150,150)
 }
+
+
+
+
+.task-enter {
+  opacity: 0.1;
+  color: orange;
+  transition: all 200ms ease-in
+}
+
+.task-enter-active {
+  opacity: 0.5;
+  color: lightgreen;
+  transition: all 200ms ease-in
+}
+
+.task-enter-done {
+  opacity: 1;
+  color: #034a0e;
+  transition: all 200ms ease-in
+}
+
+.task-exit {
+  opacity: 1;
+  color: #034a0e;
+  transition: all 200ms ease-in
+}
+
+.task-exit {
+  opacity: 0;
+  color: lightgreen;
+  transition: all 200ms ease-in
+}
+
+.task-exit {
+  opacity: 0;
+  color: orange;
+  transition: all 200ms ease-in
+}

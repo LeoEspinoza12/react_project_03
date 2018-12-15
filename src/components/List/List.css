@@ -10,7 +10,7 @@
   height: 100%;
   border: none;
   border-radius: none;
-  overflow: auto
+  overflow: hidden
 }
 
 .List ul li {
@@ -89,7 +89,8 @@
 }
 
 .Ads div p{
-  font-size: 0.9em
+  font-size: 0.9em;
+  font-weight: 600
 }
 
 

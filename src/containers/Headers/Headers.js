@@ -12,14 +12,10 @@ const Heading = (props) => {
     
     
     return (
-
         <div className='Header'>
-          <Header 
-            time={props.time} />
-          <Task 
-            lists={props.lists}/>
+            <Header time={props.time} />
+            <Task lists={props.lists}/>
         </div>
-
     )
 }
 
