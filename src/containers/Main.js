@@ -6,6 +6,7 @@ import './Main.css'
 import Header from './Headers/Headers'
 import Lists from '../components/List/List'
 import Button from '../components/Button/Button'
+import Fragment from '../components/UI/Fragment/Fragment'
 
 
 class Main extends Component {
@@ -19,7 +20,7 @@ class Main extends Component {
     initialList: ''
   }
 
-componentDidMount(){
+componentWillMount(){
   const date = new Date()
   this.setState({dateTime: date})
 }
@@ -83,11 +84,11 @@ deleteList = (i) => {
 }
 
 render(){
-  
+  console.log('manski')
   
     return (
       <div className='Outer'>
-        <div className='Main'>  
+        <Fragment className='Main'>  
           <Header 
             time={this.state.dateTime}
             lists={this.state.todoLists} />
@@ -106,7 +107,7 @@ render(){
             textValue={this.state.initialList}
             enterText={this.enterText}
             enterList={this.enterList} />
-        </div>
+        </Fragment>
       </div>
     )
   }

@@ -14,15 +14,15 @@
 }
 
 .List ul li {
-  /* background: rgb(230, 230, 230, 0.7); */
-  width: 100;
-  height: 48px;
-  padding-left: 35px;
+  width: 100%;
+  padding-top: 1.3em;
+  padding-left: 3.2em;
   border-radius: 0;
   border: none;
   font-size: 0.95em;
   font-weight: 700;
-  background: transparent
+  background: transparent;
+  height: 3em
 }
 
 .List ul hr {
